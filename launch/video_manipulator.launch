@@ -1,3 +1,4 @@
+// Launch package
 <launch>
     <node pkg="video_manipulator" name="video_manipulator" type="video_manipulator" output="screen" />
 </launch>
