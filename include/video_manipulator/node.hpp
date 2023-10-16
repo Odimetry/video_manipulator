@@ -1,6 +1,6 @@
 #ifndef COLOR_MANIPULATOR_HPP_
 #define COLOR_MANIPULATOR_HPP_
-// hpp define start:
+// hpp define start
 
 #include "ros/ros.h"
 #include <string>
