@@ -19,6 +19,7 @@
 
 #define GRIP_OPEN  0.0125
 #define GRIP_CLOSE –0.01
+// Set gripper angle
 
 using namespace std;
 using namespace cv;
@@ -42,7 +43,8 @@ Node::~Node()
 }
 
 bool Node::init()
-{    ros::init(init_argc,init_argv,"video_manipulator"); // Activate “video_manipulator” Node
+{
+    ros::init(init_argc,init_argv,"video_manipulator"); // Activate “video_manipulator” Node
 
     if ( ! ros::master::check() ) // Check for parameter server
     {
