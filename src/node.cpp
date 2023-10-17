@@ -17,9 +17,9 @@
 #include <sensor_msgs/LaserScan.h>
 #include <sensor_msgs/CompressedImage.h>
 
+// Set gripper angle
 #define GRIP_OPEN  0.0125
 #define GRIP_CLOSE –0.01
-// Set gripper angle
 
 using namespace std;
 using namespace cv;
@@ -303,8 +303,8 @@ void Node::laser_cb(const sensor_msgs::LaserScan::ConstPtr &msg)
         if(std::isinf(range[i])) range[i] = 3.5; // save 3.5 for 'inf'
     }  
 
-    front = range[0];
     // Lidar data based on clockwised azimuth
+    front = range[0];
     left = range[59]; // 90 degree
     right = range[177]; // 270 degree
     fl89 = range[58]; // 88.5 degree
