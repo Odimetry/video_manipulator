@@ -17,6 +17,7 @@
 /* Original Authors: Darby Lim, Hye-Jong KIM, Ryan Shim, Yong-Ho Na */
 /* Updator: Young-Jo KIM, Ye-jun SON */
 
+// Include header file
 #include "../include/video_manipulator/node.hpp"
 #include <iostream>
 #include <ros/ros.h>
@@ -24,14 +25,13 @@
 #include "sensor_msgs/Imu.h"
 #include <math.h>
 #include "geometry_msgs/Quaternion.h"
-// Include header file
 
+// Define speed
 #define GO 0.045
 #define TURN 0.05
 #define SLOW 0.023
 #define STURN 0.01
 #define RANGE 0.21
-// Define speed
 
 using namespace std;
 void final::Node::move() // Define move() function in Object Node, in final namespace
