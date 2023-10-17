@@ -1,14 +1,14 @@
 #ifndef COLOR_MANIPULATOR_HPP_
-#define COLOR_MANIPULATOR_HPP_
-// hpp define start
+#define COLOR_MANIPULATOR_HPP_ // hpp define start
 
+// Message header file
 #include "ros/ros.h"
 #include <string>
 #include <eigen3/Eigen/Eigen>
 #include <geometry_msgs/Pose.h>
 #include <sensor_msgs/JointState.h>
-// Message header file
 
+// Manipulator header file
 #include <moveit/move_group_interface/move_group_interface.h>
 #include <moveit/robot_state/robot_state.h>
 #include <moveit/planning_interface/planning_interface.h>
@@ -18,8 +18,8 @@
 #include <moveit_msgs/DisplayTrajectory.h>
 #include <moveit_msgs/ExecuteTrajectoryActionGoal.h>
 #include <moveit_msgs/MoveGroupActionGoal.h>
-// Manipulator header file
 
+// OpenCV header file
 #include <cv_bridge/cv_bridge.h>
 #include <iostream>
 #include <stdio.h>
@@ -29,7 +29,6 @@
 #include <sensor_msgs/LaserScan.h>
 #include <geometry_msgs/Twist.h>
 #include <sensor_msgs/CompressedImage.h>
-// OpenCV header file
 
 using namespace std;
 using namespace cv;
