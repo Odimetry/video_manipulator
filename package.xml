@@ -15,7 +15,7 @@
   <url type="website">http://github.com/Odimetry/video_manipulator</url>
 
   <author email="yz1938@naver.com">alfred</author>
-  <author email="yejunson5_5@naver.com">son</author>
+  <author email="yejunson5_5@naver.com">ethan</author>
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>OpenCV</build_depend>
