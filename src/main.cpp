@@ -15,6 +15,7 @@
 *******************************************************************************/
 
 /* Original Authors: Darby Lim, Hye-Jong KIM, Ryan Shim, Yong-Ho Na */
+/* OpenCV: Ctanakul */
 /* Updator: Young-Jo KIM, Ye-jun SON */
 
 // Include header file
